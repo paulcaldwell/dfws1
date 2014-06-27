@@ -1,0 +1,106 @@
+body
+{ 
+background-color: #ff7640;font-family: font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+header{
+font-family: font-family: 'Oswald', sans-serif;; font-size: 60px; color: #a62f00; text-align: center; text-shadow: #fff 1px 1px;
+px;
+}
+h1{
+font-family: font-family: 'Oswald', sans-serif;; font-size: 60px; color: #a62f00; text-align: center; text-shadow: #fff 1px 1px;
+px;
+}
+
+h3{
+	font-family:"Times New Roman",Georgia,Serif; font-size: 40px; color: #a62f00; text-align: center; text-shadow: #fff 1px 1px;
+px;
+}
+
+p{
+	font-family:"Times New Roman",Georgia,serif; font-size: 20px; color: #000; text-align: left;
+px;
+}
+
+ul{
+	list-style: circle; font: italic bold 20px arial, helvetica, verdana, geneva, sans-serif;
+}
+
+ol{
+	list-style: lower-roman; font: italic bold 20px arial, helvetica, verdana, geneva, sans-serif;
+}
+
+img { 
+
+  padding:3px; border:3px solid #021a40; background-color:#ff0;
+
+}
+aside{font-family:"Times New Roman",Georgia,Serif; font-size: 40px; color: #a62f00; text-align: center; text-shadow: #fff 1px 1px;
+px;
+
+}
+
+nav{
+list-style: circle; font: italic bold 20px arial, helvetica, verdana, geneva, sans-serif;
+}
+
+a:link {
+	color: #ff9b73; text-decoration: none;
+}
+a:visited{
+color: #a62f00;
+}
+a:hover{color: #ff4900 ;text-decoration: underline;
+
+}
+a:active{
+color:#021a40;
+}
+
+.history{
+	margin: 0; padding: 10px; text-align: center; border-width:5px;	border-color:#BF5930; border-style: outset;	
+}
+ table.beertable {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+table, td, th {
+    border: 1px solid green; border-spacing: 2px; width: 500px; text-align: center; background-color: #a62f00; padding: 2px;
+}
+td{
+    color: black;
+    }
+
+tr:hover{
+	background-color: #ccc;
+}
+
+th {font-family:"Times New Roman",Georgia,Serif; font-size: 30px; color: #ff7640; text-align: center; text-shadow: #a62f00 1px 1px;
+px;
+}
+
+.beerform{
+	margin: 0; padding: 10px; text-align: left; border-width:5px;	border-color:#BF5930; border-style: outset
+}
+label{
+	font-family:"Times New Roman",Georgia,serif; font-size: 20px; color: #000; text-align: left;
+px;
+}
+
+label:hover{
+	background-color: #ccc;
+}
+
+label:focus{
+	background-color: #fff
+}
+
+input{
+	font-family:"Times New Roman",Georgia,serif; font-size: 15px; color: #CCC; text-align: center; padding:5px; margin: 5px; 
+}
+
+
+footer{font-family:"Times New Roman",Georgia,Serif; font-size: 20px; color: #a62f00; text-align: center;
+
+}

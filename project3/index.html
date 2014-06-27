@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+
+<title>Homebrew or Bust!</title>
+<header>Homebrewing</header>
+<!--<h1>Homebrewing</h1>-->
+<br>
+<h2>Jump to</h2>
+<nav>
+<li><a href="#history">History</a></li>
+<li><a href="#beerstyles">Beer Styles</a></li>
+<li><a href="#reconmendedsupplies">Reconmended Supplies</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#helpfullinks">Helpful Links</a></li>
+</nav>
+
+
+<!-- aside-->
+
+<a name="history"></a>
+<br>
+<aside>History</aside>
+<div class="history">
+<blockquote cite="http://en.wikipedia.org/wiki/Homebrewing">
+<P><strong>Alcohol</strong> has been brewed domestically throughout its 7,000-year history, beginning in the Neolithic period in Mesopotamia(modern Iraq), Egypt, and China. It seems to have first developed as thick beers and meads, although fruit and rice wineswere also developed. Greece and Rome privileged the cultivation of grape wine and, to a lesser extent, beer. Domestic production in larger households was directed by wives but often carried out by slaves. Meanwhile, in the far east, by the Han dynasty, China had abandoned both in favor of the much stronger huangjiu and rice wines, both of which were traditionally warmed prior to consumption. By the Tang dynasty, homebrewing seems to have been a familiar domestic chore in China, albeit the lower classes had to make do with poorly-filtered mash. However, laws against making alcohol were enacted and repealed 41 times between the Zhou and Ming dynasties.</p>
+<p>
+Mass production of brewed beverages began in the 18th century with the Industrial Revolution. Innovations, like thermometers and hydrometers, allowed increases in efficiency. French microbiologist Louis Pasteur explained the role of yeast in beer fermentation in 1857, allowing brewers to develop strains of yeast with desirable properties (conversion efficiency, ability to handle higher alcohol content).</p></blockquote>
+
+<br>
+<!--article -->
+<article>
+<h3>Domestic History</h3>
+<p>Brewing on a domestic level has been done for thousands of years, but has been subject to regulation and prohibition during some time periods in certain places. Restrictions on homebrewing were lifted in the UK in 1963, Australia followed suit in 1972,and the USA in 1978, though individual states were allowed to pass their own laws limiting production. In some countries such as New Zealand homebrewing beer or wine has always been legal.</p>
+</article>
+</div>
+
+<!-- beer table-->
+
+<h3> <a name-"beerstyles">Beer Styles</a> </h3>
+<div>
+<table class="beertable">
+<tr>
+  <th>Beer Style</th>
+  <th>Color</th>		
+  <th>ABV</th>
+  <th>IBU</th>
+</tr>
+<tr>
+  <td>American IPA</td>
+  <td>Very pale golden to reddish amber</td>		
+  <td>5.5-7.5%</td>
+  <td>40-60</td>
+</tr>
+<tr>
+  <td>Saison</td>
+  <td>Golden straw color</td>		
+  <td>5.0-8.0%</td>
+  <td>20-30
+</td>
+</tr>
+<tr>
+  <td>Porter</td>
+  <td>Dark red brown to black</td>		
+  <td>4.0-7.5%</td>
+  <td>20-60</td>
+</tr>
+<tr>
+  <td>German Hefeweizen</td>
+  <td>Light to golden yellow</td>    
+  <td>4.0-7.0%</td>
+  <td>10-16</td>
+</tr>
+</table>
+</div>
+
+<h3><a name="reconmendedsupplies">Reconmended Supplies</a></h3>
+<ul>
+<li>Carboy</li>
+<li>Airlock w/Rubber Stopper with Hole</li>
+<li>Hydrometer</li>
+<li>Hydrometer Jar</li>
+<li>5ft Vinyl Transfer Tubing</li>
+<li>5-Gallon Stainless Kettle</li>
+<li>Wort Chiller</li>
+</ul>
+
+
+<!--This is where the form is held -->
+
+<div class="beerform">
+<form action="brewform">
+<label>First name:</label><input type="text" name="fname" autofocus required><br>
+<label>Last Name:</label><input type="text" name="lname" required><br>
+<label>Prefered Brew?:</label><input list="brew">
+<datalist id="brew">
+  <option value="IPA">
+  <option value="Stout">
+  <option value="Porter">
+  <option value="Hefe"> 
+</datalist>
+<br>
+<label>Are you a homebrewer?: </label>Yes <input type="radio" brewer="yes"> No <input type="radio" brewer="no">
+<br>
+<textarea name="favbeer" form="favbeer">What is your favorite beer?</textarea>
+ <br>
+ <input type="submit">
+</form>
+</div>
+
+
+<!--images go here -->
+<h3><a name="images">Images</a></h3>
+
+<div id="imgcontainter">
+<figure>
+  <a href="./images/1.jpg"><img src="./images/1.jpg" alt="Grain and Hops"></a> 
+  <figcaption>Grains and Hops.</figcaption>
+</figure>
+<figure>
+  <a href="./images/2.jpg"><img class="middle-img" img src="./images/2.jpg" alt="Kettle and Fermenter"></a> 
+  <figcaption>Kettle and Fermenter.</figcaption>
+</figure>
+
+<figure>
+  <a href="./images/3.jpg"><img src="./images/3.jpg" alt="Homebrew Kit"></a> 
+  <figcaption>Homebrew Kit.</figcaption>
+</figure>
+</div>
+
+<!-- helpful links -->
+<h3><a name="helpfullinks">Helpful Links</a></h3>
+<ul>
+<li><a href="http://www.homebrewtalk.com/">Homebrew Talk</a></li>
+<li><a href="http://www.reddit.com/r/Homebrewing">Reddit Homebrew</a></li>
+<li><a href="http://www.homebrewersassociation.org/">Homebrewers Association</a></li>
+</ul>
+
+<p><a href="http://en.wikipedia.org/wiki/Homebrewing">References</a></p>	
+
+<!-- footer -->
+<footer>Thanks for viewing :)</footer>
