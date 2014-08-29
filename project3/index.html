@@ -1,20 +1,22 @@
 
 <!DOCTYPE html>
-
+<html>
+<body>
 <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
-<title>Homebrew or Bust!</title>
+<title>Homebrew!</title>
+<header>Micro Homebrewing! Taking brewing from the burner to the stove!</header>
 
-<h1>Micro Homebrewing! Taking brewing from the burner to the stove!</h1>
+
 <br>
 <h2>Jump to</h2>
-<ol>
-<li><a href="#Brewing">Brewing</a></li>
-<li><a href="#supplies">Reconmended Supplies</a></li>
-<li><a href="#images">Images</a></li>
-<li><a href="#helpfullinks">Helpful Links</a></li>
-</ol>
+<ul>
+	<li><a href="#Brewing">Brewing</a></li>
+	<li><a href="#supplies">Reconmended Supplies</a></li>
+	<li><a href="#images">Images</a></li>
+	<li><a href="#helpfullinks">Helpful Links</a></li>
+</ul>
 
 
 <div id="brewing">
@@ -25,50 +27,115 @@
 </blockquote>
 </div>
 
-<div id="started">
-<h3>Now lets get started!</h3>
-<p>
-More content will be added shortly. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-</p>
+<div>
+	<div id="started">
+		<h3>Now lets get started!</h3>
+		<p>
+		More content will be added shortly. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+		</p>
+	</div>
+
+	<div id="table">
+		<table class="table">
+		<tr>
+		  <th>Beer Style</th>
+		  <th>Color</th>		
+		  <th>ABV</th>
+		  <th>IBU</th>
+		</tr>
+		<tr>
+		  <td>American IPA</td>
+		  <td>Very pale golden to reddish amber</td>		
+		  <td>5.5-7.5%</td>
+		  <td>40-60</td>
+		</tr>
+		<tr>
+		  <td>Saison</td>
+		  <td>Golden straw color</td>		
+		  <td>5.0-8.0%</td>
+		  <td>20-30
+		</td>
+		</tr>
+		<tr>
+		  <td>Porter</td>
+		  <td>Dark red brown to black</td>		
+		  <td>4.0-7.5%</td>
+		  <td>20-60</td>
+		</tr>
+		<tr>
+		  <td>German Hefeweizen</td>
+		  <td>Light to golden yellow</td>    
+		  <td>4.0-7.0%</td>
+		  <td>10-16</td>
+		</tr>
+		</table>
+	</div>
 </div>
+
 <div id="supplies">
 <h3><a name="supplies">What you need to get started!</a></h3>
 <ul>
-<li>3 Gallon Carboy</li>
-<li>Airlock </li>
-<li>Hydrometer</li>
-<li>1 Gallon carboy </li>
-<li>5ft Vinyl Transfer Tubing</li>
-<li>2 Gallon pot</li>
-<li>2lbs of Grain</li>
-<li>1oz of Hops</li>
-<li>Yeast</li>
+	<li>3 Gallon Carboy</li>
+	<li>Airlock </li>
+	<li>Hydrometer</li>
+	<li>1 Gallon carboy </li>
+	<li>5ft Vinyl Transfer Tubing</li>
+	<li>2 Gallon pot</li>
+	<li>2lbs of Grain</li>
+	<li>1oz of Hops</li>
+	<li>Yeast</li>
 </ul>
 </div>
+
+<div class="beerform">
+	<form action="brewform">
+	<label>First name:</label><input type="text" name="fname" autofocus required><br>
+	<label>Last Name:</label><input type="text" name="lname" required><br>
+	<label>Prefered Brew?:</label><input list="brew">
+		<datalist id="brew">
+		  <option value="IPA">
+		  <option value="Stout">
+		  <option value="Porter">
+		  <option value="Hefe"> 
+		</datalist>
+	<br>
+	<label>Are you a homebrewer?: </label>Yes <input type="radio" brewer="yes"> No <input type="radio" brewer="no">
+	<br>
+	<textarea name="favbeer" form="favbeer">What is your favorite beer?</textarea>
+	 <br>
+	 <input type="submit">
+	</form>
+</div>
+
+
 <div id="images">
 <h3><a name="images">Images</a></h3>
-<figure>
-  <a href="./images/1.jpg"><img src="./images/1.jpg" alt="Grain and Hops"></a> 
-  <figcaption>Grains and Hops.</figcaption>
-</figure>
-<figure>
-  <a href="./images/2.jpg"><img src="./images/2.jpg" alt="Kettle and Fermenter"></a> 
-  <figcaption>Kettle and Fermenter.</figcaption>
-</figure>
-<figure>
-  <a href="./images/2.jpg"><img src="./images/3.jpg" alt="Homebrew Kit"></a> 
-  <figcaption>Homebrew Kit.</figcaption>
-</figure>
+	<figure>
+	  <a href="./images/1.jpg"><img src="images/1.jpg" alt="Grain and Hops"></a> 
+	  <figcaption>Grains and Hops.</figcaption>
+	</figure>
+	<figure>
+	  <a href="./images/2.jpg"><img src="images/2.jpg" alt="Kettle and Fermenter"></a> 
+	  <figcaption>Kettle and Fermenter.</figcaption>
+	</figure>
+	<figure>
+	  <a href="./images/2.jpg"><img src="images/3.jpg" alt="Homebrew Kit"></a> 
+	  <figcaption>Homebrew Kit.</figcaption>
+	</figure>
 </div>
+
+
 
 <div id="helpful">
-<h3><a name="helpfullinks">Helpful Links</a></h3>
-<ul>
-<li><a href="http://www.homebrewtalk.com/">Homebrew Talk</a></li>
-<li><a href="http://www.homebrewersassociation.org/">Homebrewers Association</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Homebrewing">References</a></li>
-</ul>
+	<h3><a name="helpfullinks">Helpful Links</a></h3>
+	<ul>
+	<li><a href="http://www.homebrewtalk.com/">Homebrew Talk</a></li>
+	<li><a href="http://www.homebrewersassociation.org/">Homebrewers Association</a></li>
+	<li><a href="http://en.wikipedia.org/wiki/Homebrewing">References</a></li>
+	</ul>
 </div>
 
 
-
+<footer>Cheers!</footer>
+</body>
+</html>
